@@ -52,7 +52,7 @@ FOV_3 = 0;                          % The location of the plane in the third dim
 surface = 'z';      % 'x' - yz plane, 'y' - xz plane, 'z' - xy plane
 ```
 
-### Step 2: Permanet magnet array definition
+### Step 2: Permanent magnet array definition
 A permanent magnet array consisting of cuboid magnets is defined by four parameters:
 - `loc_all_list` - the center location of each magnet in the form of `(x, y, z)` in row-order
 - `angle_all` - the `(yaw,pitch,roll)` orientation angle with respect to the center of each magnet. An angle of `(0,0,0)` indicates +y-magnetization, and cuboid sides should be parallel with the Cartesian coordinates.
